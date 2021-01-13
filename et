@@ -1,0 +1,29 @@
+[33mcommit 1fa6a7d6e5fa750d2f3b8e2900c138504bc99093[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Juliano Seus <JulianoSeusDev@outlook.com>
+Date:   Wed Jan 13 10:07:41 2021 -0300
+
+    Adicao do Bootstrap framework e melhoramento do index
+
+[33mcommit 5de7e9fb6ba77ab3873a944fa22181364ca3b694[m
+Author: Juliano Seus <JulianoSeusDev@outlook.com>
+Date:   Wed Jan 13 09:32:20 2021 -0300
+
+    adicao do token CSRF como meta
+
+[33mcommit 64b7e64e3ef0fdd1ff568a2139b30566a143c01b[m
+Author: Juliano Seus <JulianoSeusDev@outlook.com>
+Date:   Wed Jan 13 09:29:15 2021 -0300
+
+    inicializacao do index e layout
+
+[33mcommit 25a10b29c72732719b67bee126c01d0cdff233fe[m
+Author: Juliano Seus <JulianoSeusDev@outlook.com>
+Date:   Wed Jan 13 09:15:13 2021 -0300
+
+    preparacao do ambiente
+
+[33mcommit b342a14b7bc1e67cf11aa729ed98140db6422f42[m
+Author: Juliano Seus <JulianoSeusDev@outlook.com>
+Date:   Wed Jan 13 09:06:51 2021 -0300
+
+    inicializacao do projeto
