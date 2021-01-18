@@ -12,7 +12,7 @@
                     <th>Nome</th>
                     <th>Quantidade</th>
                     <th>Preco</th>
-                    <th>Departamento</th>
+                    <th>Categoria</th>
                     <th>Ações</th>
                 </tr>
             </thead>
@@ -59,9 +59,9 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="departamentoProduto" class="control-label">Departamento</label>
+                        <label for="categoriaProduto" class="control-label">Categoria</label>
                         <div class="input-group">
-                            <select class="form-control"  id="departamentoProduto">
+                            <select class="form-control"  id="categoriaProduto">
 
                             </select>
                         </div>
@@ -91,5 +91,19 @@
 
         $('#dlgProdutos').modal('show');
     }
+
+    function carregarCategorias() {
+        $.getJSON('/api/categorias', function(data) {
+            for (i=0; i<data.length; i++)
+            {
+                opcao = '<option value="' + data[i].id + '">' + data[i].nome + '</option>';
+                $('#categoriaProduto').append(opcao);
+            }
+        });
+    }
+
+    $(function() {
+        carregarCategorias();
+    });
 </script>
 @endsection
